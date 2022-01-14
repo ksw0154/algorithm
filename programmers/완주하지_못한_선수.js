@@ -17,5 +17,3 @@ function solution(participant, completion) {
 }
 
 console.log(solution(participant, completion));
-
-function solution(participant, completion) {}
