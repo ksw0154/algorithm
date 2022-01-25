@@ -1,0 +1,9 @@
+const seoul = ["Jane", "Kim"];
+
+function solution(seoul) {
+  // const index = seoul.findIndex((element) => element === "Kim");
+  const index = seoul.indexOf("Kim");
+  return `김서방은 ${index}에 있다`;
+}
+
+console.log(solution(seoul));
